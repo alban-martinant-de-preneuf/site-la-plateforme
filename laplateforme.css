@@ -25,7 +25,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 30px;
 }
 
 header a {
@@ -34,6 +33,7 @@ header a {
 
 header > img {
     height: 63px;
+    padding-left: 33px;
 }
 
 ul {
@@ -206,6 +206,7 @@ h4 {
 }
 
 #testify {
+    width: 100%;
     background-color: #FFA000;
     color: #FFF;
     margin-top: 140px;
