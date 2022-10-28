@@ -64,13 +64,14 @@ header li {
 
 #presentationSection {
     display: flex;
-    background-color: #336699;
     font-size: 25px;
     color: #FFF;
     line-height: 1.2em;
+    width: 100%;
 }
 
 #presentationDiv {
+    background-color: #336699;
     display: flex;
     width: 50%;
     min-width: 470px;
@@ -115,9 +116,16 @@ button {
     width: 50%;
 }
 
-#presentationDivImage img {
+#presentationDivImage > div {
     width: 100%;
-    min-width: 470px;
+    background-image: url(images/HP_visual_light.jpg);
+    background-size: cover;
+}
+  
+#presentationDivImage > div::after {
+  content: '';
+  display: block;
+  padding-bottom: 100%;
 }
 
 #main {
